@@ -26,7 +26,7 @@ body {
 
 h2 {
   font-size: 3em;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -53,7 +53,9 @@ h2 {
   width: 430px;
   height: 430px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Faz com que sempre que um elemento 
+  ultrapassar o tamanho definido da largura, 
+  haja uma quebra de linha. */
   gap: 10px;
   transform-style: preserve-3d;
   perspective: 500px;
@@ -67,7 +69,6 @@ h2 {
   align-items: center;
   justify-content: center;
   background-color: #fff;
-
   font-size: 3em;
   transform: rotateY(180deg);
   transition: 0.25s;
